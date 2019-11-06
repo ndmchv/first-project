@@ -12,12 +12,13 @@
 <p>Ez egy kalkulátor, ami nem kalkulál</p>
 <table border="1">
 <form>
-    <input name="a" />
+    <div>
+    <input name="a" id="a-input" />
     +
-    <input name="b" />
-    <input type="submit" value="Számolj!" id="submit-button"/>
+    <input name="b" id="b-input"/>
+        <input type="submit" value="Számolj!" id="submit-button"/> </div>
 
-    <div>    <input name="eredmeny" id="eredmeny" /></div>>
+    <div> Eredmény:  <input name="eredmeny" readonly="true" id="result-input" /></div>
 
 </form>
 </table>
